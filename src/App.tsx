@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import "./App.css";
 import Confetti from "react-confetti";
 import { getUserFromWorkshop } from "./api/services";
-import { Axios, AxiosError } from "axios";
+import { AxiosError } from "axios";
 
 function App() {
   const [success, setSuccess] = useState(false);
